@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>CliqueNumber</servlet-name>
+        <servlet-class>
+            test.CliqueNumber
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CliqueNumber</servlet-name>
+        <url-pattern>/CliqueNumber</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>IndependenceNumber</servlet-name>
+        <servlet-class>
+            test.IndependenceNumber
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>IndependenceNumber</servlet-name>
+        <url-pattern>/IndependenceNumber</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChromaticNumber</servlet-name>
+        <servlet-class>test.ChromaticNumber</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChromaticNumber</servlet-name>
+        <url-pattern>/ChromaticNumber</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChromaticIndex</servlet-name>
+        <servlet-class>test.ChromaticIndex</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChromaticIndex</servlet-name>
+        <url-pattern>/ChromaticIndex</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EdgeConnectivity</servlet-name>
+        <servlet-class>test.EdgeConnectivity</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EdgeConnectivity</servlet-name>
+        <url-pattern>/EdgeConnectivity</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
